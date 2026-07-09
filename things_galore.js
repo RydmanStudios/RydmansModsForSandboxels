@@ -14,4 +14,4 @@ elements.reactive_powder = {
 	density: 2550,
 	hardness: 0.5,
 	breakInto: ["sand","gravel"]
-}
+};
