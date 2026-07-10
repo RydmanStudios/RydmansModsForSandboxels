@@ -1,5 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Your mod code goes inside here!
+// This forces Sandboxels to wait until the game engine is fully ready
+runAfterLoad(function() {
+    
     elements.magic_dust = {
         color: "#ff00ff",
         behavior: behaviors.POWDER,
@@ -10,4 +11,5 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 
     elementMoveLoop("magic_dust");
+    
 });
